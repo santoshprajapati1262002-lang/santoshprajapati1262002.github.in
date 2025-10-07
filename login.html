@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>IIMA AYADHA Login</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--header start-->
+        <div class="row bg-primary text-white py-2 text-center fw-semibold">
+            <div class="col-sm-6 ">Welcome to IIMA Ayodhya</div>
+            <div class="col-sm-6 ">Home | IIMA Branches | AICTE Corner</div>
+        </div>
+        <!--headert end-->
+
+        <!--main header start-->
+        <div class="row py-1 align-items-center ">
+            <div class="col-sm-2 text-end"><img src="images/Logo-IIMM-1.png" alt="logo" height="110"></div>
+            <div class="col-sm-3">
+                <h1>IMMA AYODHYA</h1>
+                <h6>Indian Institute of Materials Management</h6>
+            </div>
+            <div class="col-sm-2"><img src="images/g20-logo.png" alt="logo" height="70"></div>
+            <div class="col-sm-2"><button class="btn border border-dark"><i class="fa-solid fa-award"></i> Institute of
+                    Eminence</button></div>
+            <div class="col-sm-3"><span class="fw-semibold"><i class="fa-solid fa-phone fa-shake"></i>&nbsp;Call US : +9194150 25623</span><br />
+                <span class="fw-semibold"><i class="fa-regular fa-envelope"></i> mail US-iimmayodhya@gmail.com</span></div>
+        </div>
+        <!--main header end-->
+
+
+        <!--nav bar start-->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid bg-primary ">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0  ">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="index.html">Home |</a>
+                                </li>
+                                <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="aboutus.html">Aboutus |</a>
+                          </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">This Institute |</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">Education |</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">Events |</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">Knowledge Bank |</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">Membership |</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">MMR |</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="#">Userlink | </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="contactus.html">ContactUs |</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="register.html">Register | </a>
+                                </li>
+  
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" href="login.html">Login </a>
+                                </li>
+
+                            </ul>
+
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--nav bar end-->
+
+        <!--Login form start-->
+        <div class="row mt-5">
+            <div class="col-sm-9 mx-auto border border-2 shadow  rounded rounded-4 ">
+                <h1 class="text-center mt-3 text-primary">Login Page</h1><br/>
+                <hr />
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        <img src="images/mobile-login-concept-illustration_114360-83.avif" alt=""
+                            style="width: 450px; height: 600px;">
+                    </div>
+                    <div class="col-sm-6 mt-5">
+                        <form class="row h-100 align-items-center">
+                            <div class="p-3"> 
+                            <div class="col-md-12 ">
+                                <label for="Enter UserId" class="form-label">Select Usertype</label>
+                                <select id="uerid" class="form-select py-2">
+                                    <option>---Select Usertype----</option>
+                                    <option>Admin</option>
+                                    <option>Student</option>
+                                    <option>Teacher</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 mt-4">
+                                <label for="Enter UserId" class="form-label">Enter UserID</label>
+                                <input type="email" class="form-control py-3" id="userid">
+                            </div>
+                            <div class="col-md-12 mt-4">
+                                <label for="Password" class="form-label">Password</label>
+                                <input type="password" class="form-control py-3" id="Password">
+                            </div>
+                            <div class="col-12 text-center mt-4">
+                                <button type="submit" class="btn btn-primary py-3 px-3">Login</button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Login form end-->
+        <!--footer start-->
+        <div class="row bg-primary py-5 mt-4">
+            <div class="col-sm-10 mx-auto ">
+              <div class="row">
+                <div class="col-sm-4 text-white">
+                  <h3><i class="fa-solid fa-location-dot fs-5"></i> Find us:</h3>
+                <p>Dev Nagar Colony, Raibareli Road<br/>
+                  (Near Naveen Galla Mandi), Ayodhya <br/>(Faizabad) - 224001</p>
+                </div>
+                <div class="col-sm-4 text-white fs-5"><h4><i class="fa-solid fa-phone"></i> Call us</h4><p>+91 9415025623<br/>+91 9415780361</p></div>
+                <div class="col-sm-4 text-white fs-5"><h3><i class="fa-regular fa-envelope-open"></i> Mail us</h3><p>info@iimmayodhya.org<br/> iimmayodhya@gmail.com</p></div>
+              </div>
+              <hr/>
+            </div>
+        </div>
+        <div class="row bg-primary py-1">
+          <div class="col-sm-10 mx-auto ">
+            <div class="row">
+              <div class="col-sm-4 text-white">
+                <h3> Welcome To IIMM</h3><hr/>
+              <p class="mytext">IIMM is dedicated to the promotion of the<br/> profession of Materials Management and<br/> with its multifarious activities, including<br/> EDP, seminars, workshops, in-house training<br/> programs and consultancy assignment.</p>
+              <h3>Follow us</h3>
+              <i class="fa-brands fa-facebook fs-1 me-3"></i>
+              <i class="fa-brands fa-twitter fs-1 me-3"></i>
+              <i class="fa-brands fa-google-plus fs-1 me-3 "></i>
+              
+            </div>
+              <div class="col-sm-4 text-white fs-5"><h4>Useful Links</h4><hr/>
+              <div class="row">
+                <div class="col-sm-5">
+                  <ul class="unorder">
+                  <li>Home</li>
+                  <li>Services</li>
+                  <li>Contact</li>
+                  <li>Our Services</li>
+                  <li>Contact us</li>
+                </ul>
+                </div>
+                <div class="col-sm-5">
+                  <ul class="unorder">
+                  <li>About</li>
+                  <li>Portfolio</li>
+                  <li>About us</li>
+                  <li>Expert team</li>
+                  <li>Latest news</li>
+                    </ul>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-4 text-white fs-5"><h3>Subscribe</h3><hr class="text-danger"/>
+                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                <div class="position-relative">
+                  <input type="email" placeholder="email id" class="form-control position-absolute py-3" >
+                  <button class="btn btn-danger position-absolute end-0 py-3 py-3 "style="height: 100px width: 200px";><i class="fa-brands fa-telegram btn-danger"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="row mt-4">
+                  <div class="col-sm-6 text-white">
+                    <p>© Copyright 2024 Designed & Developed By | Softpro India Computer Technologies (P) Ltd.</p>
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <ul class="unord">
+                      <li>Home&nbsp;&nbsp;&nbsp;</li>
+                      <li>Team&nbsp;&nbsp;&nbsp;</li>
+                      <li>Privacy&nbsp;&nbsp;&nbsp;</li>
+                      <li>Policy&nbsp;&nbsp;&nbsp;</li>
+                      <li>Contact</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <!--footer end-->
+    </div>
+</body>
+
+</html>
